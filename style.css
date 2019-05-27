@@ -1,0 +1,26 @@
+.wp-postinfo-box {
+    position: fixed;
+    top: 80px;
+    right: 80px;
+    width: 300px;
+    z-index: 100;
+    padding: 30px 30px;
+    background-color: #000000AA;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.wp-postinfo-row {
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.wp-postinfo-button-wrapper {
+    display: table-cell;
+}
+
+.wp-postinfo-button {
+    display: block;
+    margin: 0 0 0 auto;
+}

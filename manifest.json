@@ -1,0 +1,11 @@
+{
+    "name": "wp-postinfo",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Easily get a Wordpress post's infomation.",
+    "content_scripts": [{
+      "matches": ["https://your-blog.com/*"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }]
+  }
